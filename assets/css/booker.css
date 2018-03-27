@@ -1,0 +1,478 @@
+*{
+	padding:0;
+	margin:0;
+}
+body {
+    font-family: "brandon-grotesque";
+}
+#BookAppointment{
+	background:#f8f3ef;
+}
+
+p{
+	font-family: "brandon-grotesque";
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.6;
+	letter-spacing: 0.5px;
+	text-align: left;
+	color: #000000;
+	clear: both;
+}
+p a, p a:hover, p a:focus{
+	color:#000;
+}
+a:hover, a:active{
+	text-decoration:none;
+}
+.TopMenu{
+	display:block;
+	margin-bottom:50px;
+}
+.TopMenu ul{
+	float:right;
+}
+.TopMenu ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding:0 13px;
+}
+.TopMenu ul li a{
+	font-family: "garamond-premier-pro-display";
+	font-style:italic;
+	font:18px;
+	color:#000;
+	letter-spacing:1px;
+}
+
+#BookingSec{
+	background:#f8f3ef;
+	width:100%;
+	height:100%;
+	min-height:100%;
+	padding:25px 0 70px 0;
+	font-family: "brandon-grotesque";
+}
+#BookingSec .container{
+	width:90%;
+}
+#LeftSec{
+	width:65%;
+}
+#RightSec{
+	width:28%;
+}
+
+.myaccount #LeftSec{
+	width:62%;
+    padding-right:130px;
+    border-right:1px solid #000;
+}
+.myaccount #RightSec{
+	width:35%;
+}
+h4{
+	/*font-family: "garamond-premnier-pro-display";*/
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.4;
+	letter-spacing: 1.9px;
+	text-align: left;
+	color: #000000;
+	padding-left:0!important;
+}
+#BookingSec h4{
+	font-family: "garamond-premier-pro-display";
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 1.4;
+	letter-spacing: 1.9px;
+	text-align: left;
+	color: #000000;
+	padding-left:0!important;
+}
+#BookingSec h5{
+	font-family: "garamond-premier-pro-display";
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.4;
+	letter-spacing: 0.9px;
+	text-align: left;
+	color: #000000;
+	padding-left:0!important;
+}
+.StepNav{
+	font-family: "brandon-grotesque";
+	font-size: 17px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: 0.1px;
+	text-align: left;
+	color: #959595;
+    margin: 21px 0 10px 0;
+}
+.CurrentStep{
+	color:#000;
+}
+.HeaderBar{
+	border-bottom:1px solid #000;
+	margin-bottom:35px;
+}
+.StepNav div{
+	text-align:right;
+}
+.selectric {
+    border-bottom: 1px solid #000;
+    position: relative;
+    background-image: url(images/arrow_down.png);
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+	color:#000;
+}
+.selectric-wrapper label{
+    font-family: "garamond-premier-pro-display";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: 1.9px;
+    text-align: left;
+    color: #000000;
+    padding-left: 0!important;
+}
+.selectric-wrapper input{
+	border:none;
+    border-bottom: 1px solid #000;
+	background:none;
+	color:#000;
+	width:100%;
+	font-family: "brandon-grotesque";
+	font-size: 17px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: 0.1px;
+}
+.selectric-wrapper input:focus{
+	outline:none;
+}
+.selectric-items li, .selectric-items ul, .SelectedGuests ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 20px;
+}
+.selectric-items li, .SelectedGuests li {
+    display: block;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    color: #666;
+    cursor: pointer;
+	font-size: 17px;
+}
+.SelectedGuests li{
+	padding-left:0;
+	border:none;
+	color: #000000;
+}
+.selectric-items li:hover{
+	background:#fdf7f3;
+}
+.guesttemp1, .guesttemp2 {
+    visibility: hidden;
+}
+.guestname1, .guestname2 {
+    visibility: hidden;
+}
+.SelectLabel{
+	font-family: "brandon-grotesque";
+	font-size: 17px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: 0.1px;
+	text-align: left;
+	color: #555555;
+}
+.selectric-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f6ede8;
+    border: 1px solid #C4C4C4;
+    z-index: 1;
+	width: 100%;
+    box-shadow: 0 0 10px -6px;
+}
+.selectric-open .selectric-items {
+    display: block;
+}
+.selectric-wrapper {
+    position: relative;
+    cursor: pointer;
+	max-width: 260px;
+}
+.myaccount .selectric-wrapper{
+    max-width: 295px;
+	width:100%;
+}
+#SecondRow .selectric-wrapper {
+	max-width: 220px;
+}
+.FieldBlock{
+	padding-bottom:40px;
+}
+.actions_wrapper{
+	clear:both;
+	margin:55px 0 0 0;	
+}
+#FirstRow .actions_wrapper{
+	clear:both;
+	margin:0 0 0 0 ;	
+}
+.button {
+    text-align: center;
+	padding: 10px 15px;
+    width: 100%;
+    display: inline-block;
+	max-width:280px;
+	border:1px solid #000;
+	text-align:center;
+	color:#000;
+	font-family: "garamond-premier-pro-display";
+	font-style:italic;
+	font-size:16px;
+	letter-spacing:1px;
+}
+.button.off {
+    background: none;
+    color: #000;
+}
+.button:hover{
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+}
+#RightSec p{
+    margin-bottom: 20px;
+}
+.SecondaryDatePicker{
+	clear:both;
+	border-top:1px solid #000000;
+	padding:25px 0;
+}
+.SecondaryDatePicker ul{
+	margin:0 auto;
+	text-align:center;
+}
+.SecondaryDatePicker li{
+	list-style-type:none;
+    display: inline-block;
+    padding: 8px;
+    border-bottom:none;
+	margin: 0 15px;
+	width:25%;
+}
+.SecondaryDatePicker li a{
+    color: #666666;
+    cursor: pointer;
+	font-size: 18px;
+	font-family: "garamond-premier-pro-display";
+	letter-spacing: 1px;
+}
+.SecondaryDatePicker li a:hover, .SecondaryDatePicker li a.ActiveDate{
+	color:#000;
+	text-decoration:underline;
+}
+.timeslots{
+	font-size:18px;
+}
+.TimeslotsHeader{
+	padding:22px 0;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	font-family: "garamond-premier-pro-display";
+	font-size:20px;
+	letter-spacing:1px;
+}
+.t_header, .t_row{
+	width:20%!important;
+}
+.t_header.for, .t_row.for{
+	width:35%!important;
+}
+.t_row{
+	padding:22px 0;
+}
+.select.button{
+	border:1px solid #bababa;
+}
+.TimeslotsInfo p{
+	padding:10px 0;
+	margin: 0;
+}
+.width_lg{
+    max-width: inherit;
+    width: 100%;
+}
+.width45{
+	width:45%!important;	
+}
+.width30{
+	width:28%;
+	margin-right:5%;
+}
+.width30.last{
+	margin-right:0;
+}
+.MarginRight{
+	margin-right:12.5%;
+}
+.MarginRight.last{
+	margin-right:0;
+}
+.checkboxes{
+	padding-top:25px;
+}
+.checkboxes input[type="checkbox"]{
+	float:left;
+	margin-right:8px;
+	-webkit-appearance:checkbox;
+}
+.checkboxes label{
+	float:left;
+	font-weight:normal;
+	font-size:17px;
+    width:82%;
+}
+.CardInfoLine{
+	padding-bottom:25px;
+}
+.form-row{
+	position:absolute;
+	width:100%;
+	left:0;
+	top:100px;
+	padding-bottom:100px;
+}
+.myaccount .selectric-wrapper.fullwidth{
+	width:100%;
+	max-width:inherit;
+}
+.noBorder{
+	border:none;
+	padding-left:0!important;
+}
+input[type="submit"]{
+	background:transparent;
+	width:100%;
+	display: block;
+    max-width: inherit;
+}
+.myaccount #RightSec{
+	max-width:350px;
+	margin:0 auto;
+	float:none;
+}
+.myaccount #RightSec .selectric-wrapper {
+    max-width:100%;
+}
+.forgotLink, .cancelLink{
+	clear:both;
+	margin:15px 0 0 0;
+	float:left;
+	color:#000;
+	font-family: "garamond-premier-pro-display";
+	font-style:italic;
+	font-size:18px;
+	letter-spacing:1px;
+}
+.forgotLink:hover, .cancelLink:hover{
+	color:#000;
+}
+.datepicker.datepicker-inline{
+    width: 100%;
+	max-width: 100%;
+}
+body[class] .modal h1, body[class] .modal h2, body[class] .modal h3,
+body[class] .modal h4, body[class] .modal h5, body[class] .modal h6{
+	font-family: "garamond-premier-pro-display";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 1.9px;
+	color: #000;
+}
+.selectric-wrapper .selectric{
+	background-position: 95% 75%;
+}
+.modal .selectric-wrapper{
+	padding: 0 20px;
+	max-width: 100%;
+}
+
+#myaccountBody .success {
+    text-align: center;
+    padding: 8px;
+    font-family: "brandon-grotesque";
+}
+
+#myaccountBody .errors {
+    text-align: center;
+    padding: 8px;
+    font-family: "brandon-grotesque";
+}
+
+#appointmentsBody .msg{
+    display:none;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "brandon-grotesque";
+}
+
+#add-new-credit-card {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    clear: both;
+}
+
+#add-new-credit-card a, #add-new-credit-card a:hover, #add-new-credit-card a:active {
+    color: #000;
+}
+
+.timeslot-button.on {
+    background: #000;
+    color: #fff;
+}
+.multi-timeslot-button.on {
+    background: #000;
+    color: #fff;
+}
+
+.sel_bddate {
+    margin: 0;
+}
+
+label.error {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.bookindex, .bookindex:hover, .bookindex:focus{
+	text-decoration: none !important;
+	color: #000;
+}

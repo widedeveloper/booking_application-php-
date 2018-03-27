@@ -1,0 +1,316 @@
+.form-control {
+    height: 29px !important;
+}
+
+.form-group.form-md-line-input .form-control {
+    border-bottom: none !important;
+    font-size: 17px !important;
+}
+
+select.guests,
+select.treatments {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.selectric p {
+    margin: 5px 0 0px !important;
+}
+
+.form-group.form-md-line-input {
+    padding-top: 0 !important;
+    margin: 0 !important;
+}
+
+#FirstRow .datepicker-inline {
+    width: 260px;
+}
+
+#SecondRow .datepicker-inline {
+    width: 220px;
+}
+
+.FieldBlock select {
+    padding: 0 !important
+}
+
+.FieldBlock select option {
+    background: #f8f3ef !important;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: not-allowed !important;
+}
+
+#treatments .serviceCategory {
+    columns: #000000;
+    font-weight: 600;
+}
+
+.js-appointments {
+    padding: 6px;
+}
+
+#viewAppointmests table tbody table>tr>td {
+    border: none;
+}
+
+#viewAppointmests table tbody table>tr>th {
+    border: none;
+}
+
+#appointmentsModal {
+    padding-right: 36px;
+    padding-left: 35px;
+}
+
+.table-scrollable {
+    border: none;
+}
+
+p.cancelaction {
+    margin: 7px 0 !important;
+}
+
+select.creditCard {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* //appointments modal */
+
+#appointmentsModal .modal-title {
+    padding: 10px 0px !important;
+    letter-spacing: 0.9px;
+}
+
+#appointmentsModal center {
+    font-family: "brandon-grotesque";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #000000;
+    clear: both;
+}
+
+#confirmMsg {
+    width: auto;
+}
+
+.checkboxDiv {
+    margin: 5px 0;
+}
+
+label.smstext {
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+#BookingSec .phone_row .FieldBlock {
+    padding-bottom: 0px;
+}
+
+#FourthRow ul li {
+    list-style: none;
+    padding: 3px 0;
+}
+
+/* //datepicker */
+
+td[data-handler="selectDay"].ui-datepicker-current-day a {
+    background: black !important;
+    color: white !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #181816 !important;
+    color: #050404 !important;
+}
+
+.ui-widget-header {
+    border: none !important;
+    background: #f8f3ef !important;
+    color: #555555 !important;
+    font-weight: bold;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    font-weight: normal !important;
+    color: #555555 !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    font-weight: normal !important;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    background: white !important;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-bottom-right-radius: 0px !important;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+    border-bottom-left-radius: 0px !important;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+    border-top-right-radius: 0px !important;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+    border-top-left-radius: 0px !important;
+}
+
+.ui-datepicker-calendar thead {
+    background: white;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+.ui-datepicker th {
+    padding: 0 !important;
+}
+
+.ui-widget-content {
+    border: 1px solid #020202 !important;
+}
+
+.ui-datepicker {
+    width: 100%;
+    padding: 0 !important;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    padding: 0 !important;
+}
+
+.ui-datepicker td {
+    border: 0;
+    padding: 0px !important;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.ui-datepicker table tr {
+    border-top: solid 1px #000 !important;
+}
+
+.ui-datepicker tr td:not(:first-child),
+.ui-datepicker tr th:not(:first-child) {
+    border-left: solid 1px #000 !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: none !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: none !important;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: block;
+    padding: .2em;
+    text-align: right;
+    text-decoration: none;
+}
+
+.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    font-family: "brandon-grotesque";
+    font-weight: normal !important;
+    font-size: 13px !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: center;
+    clear: both;
+    width: 100%;
+}
+
+#datepicker table,
+#datepicker2 table {
+    background-color: #f8f3ef !important;
+}
+
+.ui-widget-header .ui-icon {
+    background-image: url("../jquery-ui/images/ui-icons_222222_256x240.png") !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: none !important;
+    background: none !important;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    background: none !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: none !important;
+    background: none !important;
+    font-weight: bold;
+    color: #333 !important;
+}
+
+.ui-datepicker .ui-datepicker-next-hover {
+    right: 2px !important;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover {
+    left: 2px !important;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+    top: 2px !important;
+}

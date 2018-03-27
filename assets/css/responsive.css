@@ -1,0 +1,301 @@
+.timeslots {
+    padding: 0;
+}
+
+.current-date .small {
+    display: none;
+}
+
+.t_header,
+.t_row {
+    float: left;
+}
+
+@media(max-width:1300px) {
+    .StepNav .step {
+        padding: 0 7px;
+    }
+}
+
+@media(max-width:1199px) {
+    .FieldBlock {
+        width: 50%;
+        float: left;
+    }
+    #BookingSec h4 {
+        font-size: 24px;
+    }
+    #LeftSec {
+        width: 66%;
+    }
+    #RightSec {
+        width: 29%;
+    }
+    .HeaderBar .col-sm-7 {
+        width: 50%;
+    }
+    .StepNav {
+        margin: 14px 0 10px 0;
+        padding: 0;
+        width: 50%;
+    }
+    .t_row.for {
+        width: 40% !important;
+    }
+    .col-md-5.FieldBlock .row {
+        margin: 0;
+    }
+    .selectric-wrapper {
+        max-width: inherit;
+    }
+    .NewCreditCardDetails {
+        width: 100%;
+    }
+    .MarginRight {
+        margin-right: 9.5%;
+    }
+    .col-md-3.MarginRight.FieldBlock {
+        width: 27%;
+    }
+    .checkboxes label {
+        width: 96%;
+    }
+    .col-md-4.col-sm-4.col-xs-12.FieldBlock {
+        width: 31.3%;
+        margin-right: 2%;
+    }
+    .myaccount #LeftSec {
+        width: 66%;
+        padding-right: 60px;
+        border-right: 1px solid #000;
+    }
+    .myaccount #RightSec {
+        max-width: inherit;
+        margin: 0 auto;
+        float: none;
+        width: 31%;
+    }
+    .col-md-12.col-sm-12col-xs-12.FieldBlock,
+    .col-md-12.col-sm-12.col-xs-12.FieldBlock {
+        width: 100%;
+    }
+}
+
+@media(max-width:991px) {
+    #LeftSec {
+        width: 100%;
+    }
+    .StepNav .step {
+        width: 33.33%;
+        padding: 0 15px;
+    }
+    .form-row {
+        position: static;
+        padding-bottom: 50px;
+    }
+    #RightSec {
+        width: 100%;
+    }
+    .SecondaryDatePicker li {
+        padding: 0;
+        margin: 0 5px;
+    }
+    .SecondaryDatePicker {
+        padding: 25px 0;
+    }
+    .guestRow1.deactive ,.guestRow2.deactive {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .StepNav .step {
+        width: 33.33%;
+        padding: 0;
+        float: left;
+        text-align: center;
+    }
+    .StepNav .row {
+        margin: 0;
+    }
+    .StepNav {
+        margin: 14px 0 10px 0;
+        width: 45%;
+    }
+    .HeaderBar .col-sm-7 {
+        width: 55%;
+        float: left;
+    }
+    #BookingSec .container {
+        width: 100%;
+    }
+    .TopMenu {
+        margin-bottom: 0px;
+    }
+    .actions_wrapper {
+        clear: both;
+        margin: 10px 0 0 0;
+    }
+    #BookingSec {
+        padding-bottom: 20px;
+    }
+    .actions_wrapper .text-right {
+        text-align: center;
+    }
+    .button {
+        max-width: inherit;
+    }
+    .actions_wrapper .col-md-6.col-sm-6.col-xs-12 {
+        width: 50%;
+    }
+    .TimeslotsHeader {
+        display: none;
+    }
+    .SecondaryDatePicker a .big {
+        display: none;
+    }
+    .current-date .small {
+        display: block;
+    }
+    .Timeslotsbox {
+        float: left;
+        width: 60%;
+    }
+    .Timeslotsbox .t_row.for {
+        width: 100% !important;
+    }
+    .col-md-12.col-sm-12.col-xs-12.TimeslotsInfo {
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .TimeslotsInfo p {
+        padding: 0;
+    }
+    .Timeslotsbox .t_row {
+        padding: 0 15px;
+    }
+    .Timeslotsbox .t_row {
+        padding: 0 15px;
+        width: auto !important;
+    }
+    .TimeslotsInfo .col-md-2.t_row {
+        width: 40% !important;
+        padding: 0 15px;
+    }
+    .TimeslotsInfo .col-md-3.t_row.text-left {
+        padding-right: 0;
+    }
+    .TimeslotsInfo .col-md-3.t_row.text-left p {
+        padding: 0;
+        font-size: 14px;
+    }
+    .actions_wrapper .col-md-6.col-sm-6.col-xs-12 .row {
+        margin: 0;
+    }
+    .actions_wrapper .col-md-6.col-sm-6.col-xs-12:first-child {
+        padding-right: 5px;
+    }
+    .actions_wrapper .col-md-6.col-sm-6.col-xs-12:first-child {
+        padding-right: 5px;
+        padding-left: 0;
+    }
+    .actions_wrapper .col-md-6.col-sm-6.col-xs-12:last-child {
+        padding-left: 5px;
+        padding-right: 0;
+    }
+    .SecondaryDatePicker {
+        margin-top: 20px;
+        border-bottom: 1px solid #000000;
+    }
+    .timeslots {
+        padding: 30px 0 0;
+    }
+    .col-md-12.FieldBlock {
+        width: 100%;
+    }
+    #register .row {
+        margin: 0;
+    }
+    #register {
+        margin: 0 -15px;
+    }
+    .myaccount #LeftSec {
+        width: 100%;
+        padding-right: 15px;
+        border-right: none;
+        border-bottom: 1px solid #000;
+        padding-bottom: 25px;
+    }
+    .myaccount #RightSec {
+        float: left;
+        width: 100%;
+        padding-top: 25px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .myaccount .selectric-wrapper {
+        max-width: inherit;
+        width: 100%;
+    }
+    #BookingSec h4 {
+        margin-bottom: 0;
+    }
+    .HeaderBar {
+        margin-bottom: 25px;
+    }
+    .FieldBlock {
+        padding-bottom: 20px;
+    }
+    .guestRow1.deactive ,.guestRow2.deactive {
+        display: none;
+    }
+}
+
+@media(max-width:600px) {
+    .FieldBlock {
+        width: 100%;
+        float: left;
+    }
+    .FieldBlock {
+        padding-bottom: 20px;
+    }
+    .StepNav {
+        margin: 14px 0 10px 0;
+        width: 100%;
+    }
+    #BookingSec h4 {
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    .FieldBlock {
+        width: 100%;
+        float: left;
+    }
+    .form-row {
+        position: static;
+        padding-bottom: 20px;
+    }
+    .HeaderBar {
+        margin-bottom: 25px;
+    }
+    .col-md-4.col-sm-4.col-xs-12.FieldBlock {
+        width: 100%;
+        margin-right: 0;
+        padding: 0 15px 20px;
+    }
+    .col-md-3.MarginRight.FieldBlock {
+        width: 100%;
+    }
+    .checkboxes label {
+        width: 92%;
+    }
+    #SecondRow .selectric-wrapper {
+        max-width: inherit;
+    }
+
+    .guestRow1.deactive ,.guestRow2.deactive {
+        display: none;
+    }
+}
